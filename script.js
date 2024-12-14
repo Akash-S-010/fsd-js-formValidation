@@ -40,7 +40,7 @@ $("#form").validate({
     messages: {
         name: {
             required: "name is required.",
-            minlength: "Minumum 3 characters required",
+            minlength: "Minimum 3 characters required",
             maxlength: "Maximum 50 characters."
         },
         email: {
@@ -49,17 +49,17 @@ $("#form").validate({
         },
         phone: {
             required: "Phone number is required.",
-            minlenght: "Minumum 10 characters required",
+            minlenght: "Minimum 10 characters required",
             maxlength: "Maximum 14 characters."
         },
         age: {
             required: "Age is required.",
-            min: "Minumum 18 ",
+            min: "Minimum 18 ",
             max: "Maximum 120"
         },
         gender: {
             required: "Gender is required.",
-            minlength: "Minumum 4 characters required",
+            minlength: "Minimum 4 characters required",
             maxlength: "Maximum 15 character"
         },
         address: {
